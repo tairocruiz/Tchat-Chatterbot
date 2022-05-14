@@ -37,7 +37,7 @@ class Tairo_Chatterbot_GUI(tk.Tk):
         """
         Set window layout.
         """
-        self.trainer.train("chatterbot.corpus.swahili")#you can change to any language as long as it available in chatterbot corpus 
+        self.trainer.train("chatterbot.corpus.swahili") #you can change to any language as long as it available in chatterbot corpus 
 
         self.grid()
 
