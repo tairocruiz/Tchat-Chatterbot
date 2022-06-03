@@ -14,7 +14,7 @@ class Tairo_Chatterbot_GUI(tk.Tk):
 
     def __init__(self, *args, **kwargs):
         """
-        Create & set window variables.
+        Create & set window variable
         """
         tk.Tk.__init__(self, *args, **kwargs)
 
